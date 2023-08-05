@@ -1,0 +1,20 @@
+
+$color: blue;
+
+@if $color== yellow {
+    .td {
+        color:  $color;
+    }
+}
+
+@else if $color== red {
+    .td {
+        color: $color;
+    }
+}
+
+@else {
+    .td {
+        color: #fff;
+    }
+}

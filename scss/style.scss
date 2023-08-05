@@ -1,0 +1,39 @@
+
+
+nav {
+    background-color: darkseagreen;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    ul {
+        list-style: none;
+        text-decoration: none;
+        li {
+            display: flex;
+            width: 1000px;
+            justify-content: space-around;
+            list-style: none;
+            text-decoration: none;
+            font-size: large;
+            padding: 1rem;
+            a {
+                font-size: 3rem;
+                border-bottom: 2px solid;
+                align-items: center;
+                padding: 1rem;
+                background-color: olive;
+            }
+        }
+        & :hover {
+            background-color: burlywood;
+        }
+    }
+}
+
+// imports
+
+@import "./utilities//variables";
+
+@import "./utilities/condicionales";
+
+@import "./utilities/mixins";
