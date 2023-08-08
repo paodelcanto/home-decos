@@ -23,6 +23,7 @@ body {
 
 header img {
   height: 500px;
+  max-width: 100%;
 }
 
 header {
@@ -34,7 +35,11 @@ header {
 
 nav {
   background-color: darkseagreen;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
     font-size: larger;
+    max-width: 100%;
 }
 
 .box__nav {
@@ -58,10 +63,13 @@ nav {
   text-decoration: none;
   font-size: large;
     padding: 2rem;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .list-items a {
-  font-size: 3rem;
+  font-size: 2rem;
+  max-width: 100%;
   border-bottom: 2px solid;
 }
 
@@ -69,9 +77,19 @@ nav {
     border-color: olive;
 }
 
+main {
+  display: flex;
+  max-width: 100%;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
 ul {
     list-style: none;
     text-decoration: none;
+    max-width: 100%;
 }
 
 
@@ -85,10 +103,16 @@ ul {
 }
 
 .articulo {
-    display: block;
+    display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1.5rem;
     flex: 1 1 clamp(300px, 30%, 400px);
+}
+
+.articulo__img {
+  flex-wrap: wrap;
+  padding: 1rem;
 }
 
 .articulo__title {
@@ -145,7 +169,7 @@ hr {
 
 .redes a {
     font-size: larger;
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
 }
 
 #footer {
@@ -242,4 +266,28 @@ form {
     background-color: #45a049;
   }
 
+servicios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.servicios p {
+  background-color: olivedrab;
+  border: none;
+  color: #000;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+legend {
+  font: 1em sans-serif;
+}
+
+.form_action {
+width: 300px;
+margin: 0;
+background-color: bisque;
+text-align: center;
+font-size: 1rem;
+}
