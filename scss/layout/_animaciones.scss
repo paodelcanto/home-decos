@@ -1,13 +1,11 @@
 
 
-
-@keyframes animacion {
+@keyframes glowing {
     0% {
-        transform: translateX(-150%);
-        opacity: 0;
+        background-position: 0 0;
     }
 
-    100% {
-        opacity: 1;
+    50% {
+        background-position: 400% 0;
     }
 }

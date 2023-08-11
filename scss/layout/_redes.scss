@@ -1,0 +1,16 @@
+
+.redes {  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: bisque;
+    font-size: large;
+    padding: 1rem;
+}
+
+.redes a {
+    font-size: large;
+    border-bottom: 1px solid;
+}

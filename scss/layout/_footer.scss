@@ -1,0 +1,31 @@
+
+.box_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1rem;
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
