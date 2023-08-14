@@ -1,5 +1,4 @@
 
-
 // imports
 
 @import "./utilities//variables";
@@ -7,6 +6,8 @@
 @import "./utilities/condicionales";
 
 @import "./utilities/mixins";
+
+
 
 
 
@@ -23,6 +24,12 @@
 @import "./layout/aside";
 
 @import "./layout/redes";
+
+@import "./layout/servicios";
+
+@import "./layout/contacto";
+
+@import "./layout/productos";
 
 @import "./layout/mediaquery";
 
